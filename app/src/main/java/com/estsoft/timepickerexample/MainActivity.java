@@ -5,18 +5,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private DatePicker datePicker;
+    private TimePicker timePicker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        datePicker = (DatePicker)findViewById( R.id.datePicker );
+        timePicker = (TimePicker)findViewById( R.id.timePicker );
 
     }
 }
